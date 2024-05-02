@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 58, in script
+    me "Enough."
+Exception: Sayer 'me' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 58, in script
+    me "Enough."
+  File "C:\Users\James\Desktop\renpy-8.0.3-sdk\renpy\ast.py", line 881, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\James\Desktop\renpy-8.0.3-sdk\renpy\ast.py", line 774, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'me' is not defined.
+
+Windows-10-10.0.22631 AMD64
+Ren'Py 8.0.3.22090809
+ComedyVN 1.0
+Mon Mar 18 18:24:23 2024

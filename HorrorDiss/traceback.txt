@@ -1,0 +1,32 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 60, in script
+    stop car_engine_handle
+  File "renpy/common/000statements.rpy", line 263, in execute_stop_music
+    renpy.music.stop(fadeout=eval(p["fadeout"]), channel=channel)
+Exception: Audio channel 'car_engine_handle' is unknown.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 60, in script
+    stop car_engine_handle
+  File "C:\Users\James\Desktop\renpy-8.0.3-sdk\renpy\ast.py", line 2232, in execute
+    self.call("execute")
+  File "C:\Users\James\Desktop\renpy-8.0.3-sdk\renpy\ast.py", line 2220, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "C:\Users\James\Desktop\renpy-8.0.3-sdk\renpy\statements.py", line 281, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 263, in execute_stop_music
+    renpy.music.stop(fadeout=eval(p["fadeout"]), channel=channel)
+  File "C:\Users\James\Desktop\renpy-8.0.3-sdk\renpy\audio\music.py", line 297, in stop
+    c = get_channel(channel)
+  File "C:\Users\James\Desktop\renpy-8.0.3-sdk\renpy\audio\audio.py", line 915, in get_channel
+    raise Exception("Audio channel %r is unknown." % name)
+Exception: Audio channel 'car_engine_handle' is unknown.
+
+Windows-10-10.0.22621 AMD64
+Ren'Py 8.0.3.22090809
+HorrorDiss 1.0
+Thu Nov 16 14:17:55 2023

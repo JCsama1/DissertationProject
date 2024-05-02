@@ -1,0 +1,54 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 7: end of line expected.
+    scene artemisfowl.png
+                     ^
+
+File "game/script.rpy", line 12: end of line expected.
+    scene classroom.png
+                   ^
+
+File "game/script.rpy", line 18: end of line expected.
+    scene classroomMCleft.png
+                         ^
+
+File "game/script.rpy", line 28: end of line expected.
+    scene clock.png
+               ^
+
+File "game/script.rpy", line 34: end of line expected.
+    scene classroomteacheronly.png
+                              ^
+
+File "game/script.rpy", line 44: end of line expected.
+    scene classroomfriend.png
+                         ^
+
+File "game/script.rpy", line 50: end of line expected.
+    scene classroomteacher.png
+                          ^
+
+File "game/script.rpy", line 66: end of line expected.
+    scene classroomgirl.png
+                       ^
+
+File "game/script.rpy", line 74: end of line expected.
+    scene classroomMCmiddle.png
+                           ^
+
+File "game/script.rpy", line 81: end of line expected.
+    scene classroomteacher.png
+                          ^
+
+File "game/script.rpy", line 93: end of line expected.
+    scene classroomteacheronly.png
+                              ^
+
+File "game/script.rpy", line 111: end of line expected.
+    scene black.png
+               ^
+
+Ren'Py Version: Ren'Py 8.0.3.22090809
+Mon Mar 18 18:23:05 2024
